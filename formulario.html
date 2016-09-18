@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<style type="text/css">
+body {
+	background-color: #3CC;
+}
+body,td,th {
+	color: #FFF;
+	font-family: "Comic Sans MS", cursive;
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<meta charset="utf-8">
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+  <h1>FORMULARIO SOCIO ECONOMICO</h1>
+  </div>
+
+<div data-role="main" class="ui-content">
+<form method="get" action="">
+
+<div class="ui-field-contain">
+    <label for="curp">Curp:</label>
+    <input type="text" name="text" id="curp" value="" placeholder="CURP">
+    </div>
+
+  <div class="ui-field-contain">
+    <label for="name">Nombre:</label>
+    <input type="text" name="text" id="name" value="" placeholder="nombre">
+    </div>
+    
+    <div class="ui-field-contain">
+<label for="APELLIDOS">Apellido Paterno:</label>
+      <input type="text" name="text" id="APELLIDOS" value="" placeholder="apellido paterno">
+  </div>
+
+<div class="ui-field-contain">
+<label for="APELLIDOS">Apellido Materno:</label>
+      <input type="text" name="text" id="APELLIDOS" value="" placeholder="apellido materno">
+  </div>
+
+
+  <div class="ui-field-contain">
+<label for="fecha">Fecha:</label>
+<input type="date" name="fecha" value="" placeholder="fecha"></input>
+  </div>
+  <div class="ui-field-contain">
+  <label for="edad">Edad</label>
+<input type="number" placeholder="edad" name="edad" required> </input>
+</div>
+  
+  <div class="ui-field-contain">
+  <label for="trabajo">Tiene Trabajo:</label>
+  <input type="Text" name="trabajo" id="trabajo" value=""placeholder="si/no" required></input>
+  </div>
+
+<div class="ui-field-contain">
+    <label for="numers">Ingreso Mensual</label>
+    <select id="numers" name="colors">
+      <option value="1">10000</option>
+      <option value="2">20000</option>
+      <option value="3">5000</option>
+ <option value="3">90000</option>
+ <option value="3">15000</option>
+    </select>
+  </div>
+
+  <div class="ui-field-contain">
+<label for="telefono">Telefono</label>
+<input type="text" placeholder="2444456789" name="tel" id="tel" placeholder="tel" required> </input>
+</div>
+
+  <div class="ui-field-contain">
+<label for="correo">Correo</label>
+<input type="email" placeholder="usuario correo.com" name="correo" required> </input>
+ </div>
+
+<div class="ui-field-contain">
+<label for="descrip">Donde Trabaja: </label>
+<textarea name="descrip" cols="35" rows="8"></textarea required>
+    </div>
+   
+ 
+
+   <div class="ui-field-contain">
+   <legend>Estado Civil
+<label for="mov1">CASADO</label>
+<input type="checkbox" name="mov1" id="mov1">
+   <label for="mov2">SOLTERO</label>
+   <input type="checkbox" name="mov2" id="mov2">
+   <label for="mov3">DIVORCIADO</label>
+   <input type="checkbox" name="mov3" id="mov3">
+   </div>
+
+ <div class="ui-field-contain">
+<label for="hijos">Tiene hijos</label>
+  <input type="Text" name="hijos" id="hijos" value=""placeholder="si/no" required></input>
+ </div>
+<div class="ui-field-contain">
+  <label for="hijos">Cuantos hijos tiene</label>
+<input type="number" placeholder="tiene" name="tiene" required> </input>
+</div>
+<div class="ui-field-contain">
+<label for="Codigo Postal">Codigo Postal</label>
+  <input type="text" name="CP" id="direccion" value=""placeholder="Codigo Postal" required></input>
+ </div>
+<div class="ui-field-contain">
+<label for="edentidad">Edentidad</label>
+  <input type="Text" name="edentidad" id="edentidad" value=""placeholder="Edentidad Federativa" required></input>
+ </div>
+<div class="ui-field-contain">
+<label for="Direccion">Direccion</label>
+  <input type="Text" name="direccion" id="direccion" value=""placeholder="direccion" required></input>
+ </div>
+<div class="ui-field-contain">
+    <label for="numers">La casa donde vive es </label>
+    <select id="numers" name="colors">
+      <option value="1">Propia</option>
+      <option value="2">Rentada</option>
+    </select>
+  </div>
+
+
+<div class="ui-field-contain">
+<label for="descrip">El material de la casa es de: </label>
+<textarea name="descrip" cols="35" rows="10"></textarea required>
+    </div>
+<div class="ui-field-contain">
+  <label for="Habitaciones">Cuantas habitaciones tiene</label>
+<input type="number" placeholder="Cuantas Habitaciones tiene" name="Cuantas Habitaciones Tiene" required> </input>
+</div>
+
+ 
+
+   <input type="reset" value="borrar formulario" name="btnborrar"></input>
+<input type="submit" value="enviar formulario" name="btnenviar"></input>
+
+</form>
+<div data-role="footer" align="center" data-theme="a"data-position="fixed">
+   <div>
+   <img src="imagenes/aa.png" width="46" height="46">
+   </div>
+    <h4>FORMULARIO SOCIOECONOMICO</h4>
+    <h4>Andrea Paola Martinez Perez </h4>
+    </div>
+    </div>
+    </div>  
+</div>
+</div>
+
+</body>
+</html>
